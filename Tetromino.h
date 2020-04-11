@@ -13,7 +13,7 @@ private:
     float border;
 
 public:
-    Tetromino(GVector &p, N_matrix &a, float size_of_figures, float border,  Color outline_color={230,230,0},string texture_file="texture.png"){
+    Tetromino(GVector &p, N_matrix &a, float size_of_figures, float border=0,  Color outline_color={230,230,0},string texture_file="texture.png"){
         this->size_of_figures=size_of_figures;
         this->border=border;
         frame=a;
